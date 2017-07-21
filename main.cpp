@@ -1,11 +1,11 @@
 #include <iostream>
 #include <SDL.h>
+#include "mingw.thread.h"
 
 const int SCREEN_WIDTH = 640;
 const int SCREEN_HEIGHT = 640;
 
 int main(int argc, char* argv []) {
-
     SDL_Window* window = NULL;
     SDL_Surface* surface = NULL;
 
